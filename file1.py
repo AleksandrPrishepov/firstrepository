@@ -1,2 +1,3 @@
 a = [int(i) for i in input().split()]
-n = 2
+b = tuple(a)
+
