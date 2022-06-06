@@ -15,6 +15,15 @@
 # print(f(n))
 
 # # 13_2
+a = float(input())
+def f(x):
+    if a <= -2:
+        return 1 - (x + 2) ** 2
+    elif -2 < a <= 2:
+        return -(x / 2)
+    elif a > 2:
+        return (x - 2) ** 2 + 1
+print(f(a))
 # a = float(input())
 # if a <= -2:
 #     def f(x):
