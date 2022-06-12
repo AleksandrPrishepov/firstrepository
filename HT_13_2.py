@@ -116,6 +116,7 @@
 #     return factorial(n-1)*n
 # print(factorial(a))
 
+<<<<<<< HEAD
 def divis(func):
     def inner(x,y):
         return func(y,x)
@@ -125,6 +126,20 @@ def divis(func):
 def div(a,b):
     return a/b
 print(div(2, 4))
+=======
+# def divis(func):
+#     def inner(x,y):
+#         return func(y,x)
+#     return inner
+
+# @divis
+# def div(a,b):
+#     return a/b
+# print(div(2, 4))
+
+
+a = '!!!!!!!!'
+
 
 
 
