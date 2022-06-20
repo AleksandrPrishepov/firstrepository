@@ -2,11 +2,12 @@
 
 class Dog:
 
-    def __init__(self,  height, weight, name, age):
+    def __init__(self,  height, weight, name, age,master):
         self.height = height
         self.weight = weight
         self.name = name
         self.age = age
+
 
     def jump(self):
         return f"Собака по имени {self.name } прыгнула, ее возраст {self.age}"
@@ -19,13 +20,14 @@ class Dog:
         return self.name
 
 
-dog1 = Dog("Овчарка", 20, "Джэк", 3)
+
+dog1 = Dog("Овчарка", 20, "Джэк", 3,"ok")
 # HT_14_1
 print(dog1.jump())
 print(dog1.run())
 print(dog1.bark(100))
-print(dog1.__dict__)
+
 # HT_14_2
 print(dog1.name)
 print(dog1.change_name("Шарик"))
-
+print(dog1.__dict__)
