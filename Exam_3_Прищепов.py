@@ -1,11 +1,11 @@
 # # exam_3_1
-#
-# def card_hide(number):
-#
-#     a = number % 10000
-#     print("*" * 12, a, sep="")
-#
-# card_hide (5456789515658562)
+
+def card_hide(number):
+    b = len(str(number))-4
+    a = number % 10000
+    print("*" * b, a, sep="")
+
+card_hide(5456789515658562)
 
 # # exam_3_2
 #
